@@ -88,7 +88,6 @@ public class PdsController {
 		System.out.println("pdsdetail seq = " + seq);
 		
 		PdsDto dto = service.getPds(seq);
-		System.out.println(dto.toString());
 		
 		return dto;
 	}

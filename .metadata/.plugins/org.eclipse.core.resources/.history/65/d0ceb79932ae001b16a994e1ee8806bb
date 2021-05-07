@@ -14,6 +14,4 @@ public interface PdsDao {
 	public List<PdsDto> getPdsList();
 	
 	public int uploadPds(PdsDto dto);
-	
-	public PdsDto getPds(int seq);
 }

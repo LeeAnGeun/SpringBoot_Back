@@ -23,8 +23,4 @@ public class PdsService {
 	public int uploadPds(PdsDto dto) {
 		return dao.uploadPds(dto);
 	}
-	
-	public PdsDto getPds(int seq) {
-		return dao.getPds(seq);
-	}
 }

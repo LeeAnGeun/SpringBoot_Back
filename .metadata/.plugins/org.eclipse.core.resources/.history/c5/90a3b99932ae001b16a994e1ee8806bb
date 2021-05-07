@@ -84,13 +84,10 @@ public class PdsController {
 	}
 	
 	@RequestMapping(value = "/pdsdetail", method = RequestMethod.POST)
-	public PdsDto pdsdetail(int seq) {
+	public String pdsdetail(int seq) {
 		System.out.println("pdsdetail seq = " + seq);
 		
-		PdsDto dto = service.getPds(seq);
-		System.out.println(dto.toString());
-		
-		return dto;
+		return "일단 성공";
 	}
 	
 	@RequestMapping(value = "/pdsupdate", method = RequestMethod.POST)

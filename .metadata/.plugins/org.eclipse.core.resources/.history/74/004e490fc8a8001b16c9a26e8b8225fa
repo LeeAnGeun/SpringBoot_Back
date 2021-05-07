@@ -1,9 +1,0 @@
-package bit.com.a.controller;
-
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController		// = @Controller + @Responsbody	-> Restful
-public class BbsController {
-
-	
-}
